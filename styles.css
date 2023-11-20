@@ -1,8 +1,42 @@
-/*
+.line {
+  display: flex;
+  /* space betweem */
+  justify-content: space-between;
+  padding: 0.75em 0;
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.line:not(:has(.title)) {
+  border-top: 1px solid var(--background-modifier-border)
+}
 
-If your plugin does not need CSS, delete this file.
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-*/
+.regex {
+  flex-basis: 45%;
+}
+
+.class {
+  flex-basis: 30%;
+}
+
+.hidden {
+  opacity: 0;
+  width: 42px;
+}
+
+.h2 {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: 0.5em 0;
+}
+
+.secondary {
+  font-size: 0.8em;
+  color: #666;
+}
