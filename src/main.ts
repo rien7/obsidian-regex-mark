@@ -1,6 +1,6 @@
 import { Plugin } from 'obsidian'
 import { MarkdownProcesser } from './markdownProcesser'
-import {  cmExtension } from './cmPlugin'
+import { cmExtension } from './cmPlugin'
 import { SampleSettingTab, SettingOptions } from './setting'
 import { Extension } from '@codemirror/state'
 

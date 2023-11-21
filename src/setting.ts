@@ -50,7 +50,7 @@ export class SampleSettingTab extends PluginSettingTab {
       cls: 'regex title',
     })
     titleEl.createSpan({
-      text: 'Class Name',
+      text: 'Class',
       cls: 'class title',
     })
     titleEl.createSpan({
